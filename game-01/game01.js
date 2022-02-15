@@ -1,5 +1,5 @@
 function getSummandSubList(nList, mSum){
-    let subSet = new Array(nList.length)
+    let subSet = new Array(nList.length + 1)
     while(nList.length > 1){
         const first = nList.shift();
         if(first < mSum){
